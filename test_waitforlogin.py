@@ -20,7 +20,7 @@ class TestWaitforlogin():
   
   def test_waitforlogin(self):
     self.driver.get("https://www.saucedemo.com/")
-    self.driver.set_window_size(944, 824)
+    self.driver.maximize_window()
     WebDriverWait(self.driver, 5).until(expected_conditions.visibility_of_element_located((By.CSS_SELECTOR, "*[data-test=\"username\"]")))
     self.driver.find_element(By.CSS_SELECTOR, "*[data-test=\"username\"]").send_keys("standard_user")
     WebDriverWait(self.driver, 5).until(expected_conditions.visibility_of_element_located((By.CSS_SELECTOR, "*[data-test=\"password\"]")))
