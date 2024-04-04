@@ -20,7 +20,7 @@ class TestFaillogin():
   
   def test_faillogin(self):
     self.driver.get("https://www.saucedemo.com/")
-    self.driver.set_window_size(944, 824)
+    self.driver.maximize_window()
     self.driver.find_element(By.CSS_SELECTOR, "*[data-test=\"username\"]").click()
     self.driver.find_element(By.CSS_SELECTOR, "*[data-test=\"username\"]").send_keys("standard_user")
     self.driver.find_element(By.CSS_SELECTOR, "*[data-test=\"password\"]").click()
