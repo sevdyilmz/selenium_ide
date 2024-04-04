@@ -20,7 +20,7 @@ class TestNousername():
   
   def test_nousername(self):
     self.driver.get("https://www.saucedemo.com/")
-    self.driver.set_window_size(944, 824)
+    self.driver.maximize_window()
     WebDriverWait(self.driver, 5).until(expected_conditions.visibility_of_element_located((By.CSS_SELECTOR, "*[data-test=\"username\"]")))
     WebDriverWait(self.driver, 5).until(expected_conditions.visibility_of_element_located((By.CSS_SELECTOR, "*[data-test=\"password\"]")))
     self.driver.find_element(By.CSS_SELECTOR, "*[data-test=\"password\"]").send_keys("secret_usser")
