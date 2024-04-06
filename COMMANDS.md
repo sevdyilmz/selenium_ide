@@ -1,3 +1,5 @@
+SELENİUM İDE COMMANDS NEDİR?
+
 “Selenium IDE command” ifadesi, Selenium Integrated Development Environment (IDE) adlı bir araçta kullanılan komutları ifade eder. Selenium IDE, web uygulamalarını otomatik olarak test etmek için kullanılan bir test aracıdır ve bu komutlar, test senaryolarını oluşturmak için kullanılır.
 
 Selenium IDE’nin komutları, kullanıcıların bir web tarayıcısında etkileşimli olarak kaydedilen aksiyonları (tıklama, yazma, seçim yapma vb.) otomatikleştirmelerine ve bu etkileşimleri test senaryolarına dönüştürmelerine izin verir. Bu komutlar, testin adımlarını belirtir ve Selenium WebDriver gibi diğer Selenium araçlarına benzer şekilde çalışırlar.
